@@ -1,0 +1,14 @@
+package immersion;
+
+import java.util.Scanner;
+
+public class welcome {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+//		int c = sc.nextInt();
+		int Kilometers = sc.nextInt();
+//		int b = sc.nextInt();
+		double Miles = Kilometers * 0.621371;
+		System.out.println(Miles);
+	}
+}
